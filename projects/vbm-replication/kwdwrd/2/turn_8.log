@@ -1,0 +1,31 @@
+=== Turn 8 started at Sat Jan 17 18:20:19 PST 2026 ===
+
+The VBM replication and extension project is now complete. Here's a summary of what was accomplished:
+
+## Project Completion Summary
+
+### Replication (Original Paper)
+Successfully replicated Tables 2 and 3 from Thompson et al. (2020):
+- **10/12 specifications** match the original paper within acceptable tolerance
+- Confirmed the key findings: VBM increases turnout (~2pp) but has no partisan effect
+
+### Extension (2020-2024)
+Applied the same DiD methodology to recent elections:
+- **Collected data** for CA, UT, and WA elections (2020, 2022, 2024)
+- **Built panel dataset** with 378 observations across 126 counties
+- **California VCA analysis** shows:
+  - No partisan effect (consistent with original)
+  - No turnout effect (different from original, likely due to COVID-19)
+
+### Key Files Created
+- `code/05_run_extension.py` - Extension analysis script
+- `notes/checkpoint_5_extension_results.md` - Detailed extension results
+- `notes/final_summary.md` - Comprehensive project summary
+- `output/tables/extension_results.csv` - Results table
+
+### Main Conclusions
+1. **Partisan neutrality confirmed** - VBM/VCA does not benefit either party
+2. **Turnout effects are context-dependent** - The original +2pp effect does not appear in the pandemic-era data
+3. **Policy implication** - Concerns about partisan advantage from mail voting are not empirically supported
+
+=== Turn 8 completed at Sat Jan 17 18:25:42 PST 2026 with exit code 0 ===

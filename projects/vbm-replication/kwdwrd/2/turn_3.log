@@ -1,0 +1,76 @@
+=== Turn 3 started at Sat Jan 17 08:50:27 PST 2026 ===
+
+---
+
+## 🛑 CHECKPOINT 1: Literature Review Complete
+
+### Summary of What Has Been Completed:
+
+1. **Original paper thoroughly summarized** in `notes/original_paper_summary.md`
+2. **Literature review completed** with 11 verified citations in `notes/literature_review.md`
+3. **Extension rationale documented** in `notes/extension_rationale.md`
+
+---
+
+### 1. Contents of `notes/original_paper_summary.md`
+
+**Research Question**: Does universal vote-by-mail affect partisan electoral outcomes (turnout composition, vote share, overall turnout)?
+
+**Identification Strategy**: Difference-in-differences exploiting staggered county-level VBM adoption across California, Utah, and Washington (1996-2018). Key identifying assumption is parallel trends.
+
+**Estimating Equation**:
+$$Y_{cst} = \beta \cdot VBM_{cst} + \gamma_{cs} + \delta_{st} + \epsilon_{cst}$$
+
+**Key Findings**:
+- **Partisan effects**: Near-zero effects on Democratic turnout share (0.001 with trends) and vote share (0.007 with trends)
+- **Turnout**: VBM increases overall turnout by ~2 percentage points
+- **VBM usage**: 14-19 pp increase in mail ballot share
+
+---
+
+### 2. Literature Review Table with Verification Status
+
+| Authors | Year | Journal | Topic | Verified? |
+|---------|------|---------|-------|-----------|
+| Gerber, Huber, & Hill | 2013 | Pol Sci Research & Methods | WA VBM turnout | **Yes** |
+| Kousser & Mullin | 2007 | Political Analysis | VBM participation | **Yes** |
+| Southwell & Burchett | 2000 | Am Politics Quarterly | Oregon VBM | **Yes** |
+| Gronke et al. | 2008 | Annual Rev Pol Sci | Convenience voting review | **Yes** |
+| Berinsky, Burns, & Traugott | 2001 | Public Opinion Quarterly | Who votes by mail | **Yes** |
+| Goodman-Bacon | 2021 | J of Econometrics | Staggered DiD | **Yes** |
+| Callaway & Sant'Anna | 2021 | J of Econometrics | DiD multiple periods | **Yes** |
+| Sun & Abraham | 2021 | J of Econometrics | Event study heterogeneity | **Yes** |
+| Amlani & Collitt | 2022 | Election Law Journal | 2020 VBM effects | **Yes** |
+| McGhee, Paluch, & Romero | 2022 | Research & Politics | 2020 VBM policy | **Yes** |
+| Stewart et al. | 2020 | PNAS | VBM partisan polarization | **Yes** |
+
+**All 11 papers verified to exist** with correct publication details.
+
+---
+
+### 3. Extension Rationale Summary
+
+**What changed post-2018?**
+- COVID-19 pandemic and emergency VBM expansion
+- VBM became a partisan issue (20 pp gap in attitudes by June 2020)
+- California VCA continued rollout: 5 counties (2018) → 30 counties (2024)
+
+**New variation available**:
+- California: 25 new VCA counties (2020-2024), including Los Angeles, San Diego, Orange
+- Utah/Washington: Fully treated by 2019-2020, no new variation
+
+**Research questions**:
+1. Do null partisan effects hold post-COVID?
+2. Is there heterogeneity by time period?
+3. Are California VCA effects consistent with earlier findings?
+
+**Key limitations**:
+- Less variation than original (primarily California)
+- Cannot separate VBM effects from COVID effects in 2020
+- Staggered DiD methodological concerns
+
+---
+
+**STOP: Awaiting approval to proceed to Phase 2 (Replication with Original Data).**
+
+=== Turn 3 completed at Sat Jan 17 08:55:13 PST 2026 with exit code 0 ===
