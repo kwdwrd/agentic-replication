@@ -314,6 +314,9 @@ if [ -n "$RUN_AS_USER" ]; then
     sudo chown -R "$RUN_AS_USER" "$RUN_DIR"
 fi
 
+# Record run start time for total duration calculation
+RUN_START_TIME=$(date +%s)
+
 echo "Starting Claude Code execution..."
 echo "Logging to: ${LOG_FILE}"
 echo ""
@@ -348,6 +351,39 @@ else
     EFFECTIVE_SESSION_ID="$SESSION_ID"
 fi
 
+# Initialize turns.json file
+TURNS_FILE="${RUN_DIR}/turns.json"
+echo "[]" > "$TURNS_FILE"
+
+# Function to record turn timing to turns.json
+record_turn_timing() {
+    local turn_number="$1"
+    local started_at="$2"
+    local completed_at="$3"
+    local duration_seconds="$4"
+    local exit_code="$5"
+    local prompt_preview="$6"
+
+    if command -v jq &> /dev/null; then
+        local temp_file
+        temp_file=$(mktemp)
+        jq --arg turn "$turn_number" \
+           --arg started "$started_at" \
+           --arg completed "$completed_at" \
+           --arg duration "$duration_seconds" \
+           --arg exit "$exit_code" \
+           --arg prompt "$prompt_preview" \
+           '. + [{
+               turn: ($turn | tonumber),
+               started_at: $started,
+               completed_at: $completed,
+               duration_seconds: ($duration | tonumber),
+               exit_code: ($exit | tonumber),
+               prompt_preview: $prompt
+           }]' "$TURNS_FILE" > "$temp_file" && mv "$temp_file" "$TURNS_FILE"
+    fi
+}
+
 # Function to execute a single Claude turn
 # Arguments: $1 = prompt content, $2 = turn number, $3 = use_resume (true/false)
 run_claude_turn() {
@@ -355,6 +391,11 @@ run_claude_turn() {
     local turn_number="$2"
     local use_resume="$3"
     local turn_log="${RUN_DIR}/turn_${turn_number}.log"
+
+    # Record start time
+    local start_time start_timestamp
+    start_time=$(date +%s)
+    start_timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
     # Build Claude command for this turn
     if [ "$use_resume" = "true" ]; then
@@ -384,6 +425,25 @@ run_claude_turn() {
             echo "=== Turn $turn_number completed at $(date) with exit code ${EXIT_CODE} ==="
         } 2>&1 | tee -a "$LOG_FILE" | tee "$turn_log"
     fi
+
+    # Record end time and calculate duration
+    local end_time end_timestamp duration_seconds
+    end_time=$(date +%s)
+    end_timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+    duration_seconds=$((end_time - start_time))
+
+    # Create a preview of the prompt (first 100 chars)
+    local prompt_preview
+    prompt_preview=$(echo "$prompt_content" | head -c 100 | tr '\n' ' ')
+    if [ ${#prompt_content} -gt 100 ]; then
+        prompt_preview="${prompt_preview}..."
+    fi
+
+    # Record timing to turns.json
+    record_turn_timing "$turn_number" "$start_timestamp" "$end_timestamp" "$duration_seconds" "${EXIT_CODE:-0}" "$prompt_preview"
+
+    # Print duration summary
+    echo "Turn $turn_number duration: ${duration_seconds}s"
 
     return $EXIT_CODE
 }
@@ -448,13 +508,17 @@ fi
 
 # Update metadata with completion info
 COMPLETED_AT="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+RUN_END_TIME=$(date +%s)
+TOTAL_DURATION_SECONDS=$((RUN_END_TIME - RUN_START_TIME))
+
 if command -v jq &> /dev/null; then
     if [ -n "$RUN_AS_USER" ]; then
         sudo -u "$RUN_AS_USER" bash -c "
             jq --arg completed '$COMPLETED_AT' \
                --arg exit_code '${EXIT_CODE:-0}' \
                --arg turns '$TURN_NUMBER' \
-               '. + {completed_at: \$completed, exit_code: (\$exit_code | tonumber), total_turns: (\$turns | tonumber)}' \
+               --arg duration '$TOTAL_DURATION_SECONDS' \
+               '. + {completed_at: \$completed, exit_code: (\$exit_code | tonumber), total_turns: (\$turns | tonumber), total_duration_seconds: (\$duration | tonumber)}' \
                '${RUN_DIR}/metadata.json' > '${RUN_DIR}/metadata.json.tmp' && \
             mv '${RUN_DIR}/metadata.json.tmp' '${RUN_DIR}/metadata.json'
         "
@@ -463,7 +527,8 @@ if command -v jq &> /dev/null; then
         jq --arg completed "$COMPLETED_AT" \
            --arg exit_code "${EXIT_CODE:-0}" \
            --arg turns "$TURN_NUMBER" \
-           '. + {completed_at: $completed, exit_code: ($exit_code | tonumber), total_turns: ($turns | tonumber)}' \
+           --arg duration "$TOTAL_DURATION_SECONDS" \
+           '. + {completed_at: $completed, exit_code: ($exit_code | tonumber), total_turns: ($turns | tonumber), total_duration_seconds: ($duration | tonumber)}' \
            "${RUN_DIR}/metadata.json" > "$TEMP_FILE" && mv "$TEMP_FILE" "${RUN_DIR}/metadata.json"
     fi
 else
@@ -473,13 +538,30 @@ else
             echo 'completed_at: $COMPLETED_AT' >> '${RUN_DIR}/completion.txt'
             echo 'exit_code: ${EXIT_CODE:-0}' >> '${RUN_DIR}/completion.txt'
             echo 'total_turns: $TURN_NUMBER' >> '${RUN_DIR}/completion.txt'
+            echo 'total_duration_seconds: $TOTAL_DURATION_SECONDS' >> '${RUN_DIR}/completion.txt'
         "
     else
         echo "completed_at: $COMPLETED_AT" >> "${RUN_DIR}/completion.txt"
         echo "exit_code: ${EXIT_CODE:-0}" >> "${RUN_DIR}/completion.txt"
         echo "total_turns: $TURN_NUMBER" >> "${RUN_DIR}/completion.txt"
+        echo "total_duration_seconds: $TOTAL_DURATION_SECONDS" >> "${RUN_DIR}/completion.txt"
     fi
 fi
+
+# Format duration for display
+format_duration() {
+    local seconds=$1
+    local hours=$((seconds / 3600))
+    local minutes=$(((seconds % 3600) / 60))
+    local secs=$((seconds % 60))
+    if [ $hours -gt 0 ]; then
+        printf "%dh %dm %ds" $hours $minutes $secs
+    elif [ $minutes -gt 0 ]; then
+        printf "%dm %ds" $minutes $secs
+    else
+        printf "%ds" $secs
+    fi
+}
 
 echo ""
 echo "=========================================="
@@ -487,4 +569,5 @@ echo "Run Complete"
 echo "=========================================="
 echo "Results saved to: ${RUN_DIR}"
 echo "Total turns: ${TURN_NUMBER}"
+echo "Total duration: $(format_duration $TOTAL_DURATION_SECONDS)"
 echo ""
