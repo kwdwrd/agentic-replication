@@ -1,0 +1,127 @@
+state,county,dem_votes,rep_votes,total_votes,year,office
+CA,Alameda,617659,136309,769864,2020,president
+CA,Alpine,476,244,741,2020,president
+CA,Amador,8153,13585,22302,2020,president
+CA,Butte,50426,48730,102042,2020,president
+CA,Calaveras,10046,16518,27164,2020,president
+CA,Colusa,3234,4554,7951,2020,president
+CA,Contra Costa,416386,152877,581230,2020,president
+CA,Del Norte,4677,6461,11452,2020,president
+CA,El Dorado,51621,61838,116138,2020,president
+CA,Fresno,193025,164464,364809,2020,president
+CA,Glenn,3995,7063,11292,2020,president
+CA,Humboldt,44768,21770,68828,2020,president
+CA,Imperial,34678,20847,56718,2020,president
+CA,Inyo,4634,4620,9481,2020,president
+CA,Kern,133366,164484,305226,2020,president
+CA,Kings,18699,24072,43858,2020,president
+CA,Lake,14941,13123,28800,2020,president
+CA,Lassen,2799,8970,11985,2020,president
+CA,Los Angeles,3028885,1145530,4263443,2020,president
+CA,Madera,23168,29378,53722,2020,president
+CA,Marin,128288,24612,155801,2020,president
+CA,Mariposa,4088,5950,10280,2020,president
+CA,Mendocino,28782,13267,43336,2020,president
+CA,Merced,48991,39397,90541,2020,president
+CA,Modoc,1150,3109,4338,2020,president
+CA,Mono,4013,2513,6737,2020,president
+CA,Monterey,113953,46299,163883,2020,president
+CA,Napa,49817,20676,72122,2020,president
+CA,Nevada,36359,26779,64738,2020,president
+CA,Orange,814009,676498,1521725,2020,president
+CA,Placer,106869,122488,235017,2020,president
+CA,Plumas,4561,6445,11256,2020,president
+CA,Riverside,527945,448702,996156,2020,president
+CA,Sacramento,440808,259405,718290,2020,president
+CA,San Benito,17628,10590,28821,2020,president
+CA,San Bernardino,455859,366257,840931,2020,president
+CA,San Diego,964650,600094,1601722,2020,president
+CA,San Francisco,378156,56417,443458,2020,president
+CA,San Joaquin,161137,121098,288443,2020,president
+CA,San Luis Obispo,88310,67436,159681,2020,president
+CA,San Mateo,291410,75563,374138,2020,president
+CA,Santa Barbara,129963,65736,200288,2020,president
+CA,Santa Clara,617967,214612,850522,2020,president
+CA,Santa Cruz,114246,26937,144796,2020,president
+CA,Shasta,30000,60789,92900,2020,president
+CA,Sierra,730,1142,1930,2020,president
+CA,Siskiyou,9593,13290,23450,2020,president
+CA,Solano,131639,69306,205831,2020,president
+CA,Sonoma,199938,61825,268252,2020,president
+CA,Stanislaus,105841,104145,214876,2020,president
+CA,Sutter,17367,24375,42640,2020,president
+CA,Tehama,8911,19141,28721,2020,president
+CA,Trinity,2851,3188,6258,2020,president
+CA,Tulare,66105,77579,146832,2020,president
+CA,Tuolumne,11978,17689,30401,2020,president
+CA,Ventura,251388,162207,422698,2020,president
+CA,Yolo,67598,27292,97264,2020,president
+CA,Yuba,11230,17676,29787,2020,president
+UT,Beaver,357,2695,3100,2020,president
+UT,Box Elder,4473,21548,27027,2020,president
+UT,Cache,16650,38032,57571,2020,president
+UT,Carbon,2392,6693,9369,2020,president
+UT,Daggett,111,496,619,2020,president
+UT,Davis,57411,104135,169895,2020,president
+UT,Duchesne,843,7513,8524,2020,president
+UT,Emery,572,4207,4865,2020,president
+UT,Garfield,514,2158,2732,2020,president
+UT,Grand,2806,2248,5185,2020,president
+UT,Iron,4892,18989,24890,2020,president
+UT,Juab,645,5087,5866,2020,president
+UT,Kane,1083,2998,4180,2020,president
+UT,Millard,624,5404,6160,2020,president
+UT,Morgan,1086,5181,6512,2020,president
+UT,Piute,86,773,871,2020,president
+UT,Rich,180,1157,1363,2020,president
+UT,Salt Lake,289906,230174,541175,2020,president
+UT,San Juan,3113,3535,6878,2020,president
+UT,Sanpete,1794,10459,12631,2020,president
+UT,Sevier,1084,9052,10363,2020,president
+UT,Summit,15244,10252,26088,2020,president
+UT,Tooele,8943,21014,31518,2020,president
+UT,Uintah,1663,13261,15307,2020,president
+UT,Utah,76033,192812,284480,2020,president
+UT,Wasatch,6187,10795,17581,2020,president
+UT,Washington,20530,67294,90476,2020,president
+UT,Wayne,365,1229,1621,2020,president
+UT,Weber,40695,65949,111442,2020,president
+WA,Adams,1814,3907,5862,2020,president
+WA,Asotin,4250,7319,11951,2020,president
+WA,Benton,38706,60365,103033,2020,president
+WA,Chelan,19349,22746,43306,2020,president
+WA,Clallam,24721,23062,49264,2020,president
+WA,Clark,140324,126303,275403,2020,president
+WA,Columbia,668,1754,2495,2020,president
+WA,Cowlitz,23938,34424,60280,2020,president
+WA,Douglas,7811,12955,21308,2020,president
+WA,Ferry,1486,2771,4367,2020,president
+WA,Franklin,13340,18039,32404,2020,president
+WA,Garfield,366,1069,1489,2020,president
+WA,Grant,11819,24764,37680,2020,president
+WA,Grays Harbor,17354,19877,38441,2020,president
+WA,Island,29213,22746,53925,2020,president
+WA,Jefferson,17204,6931,24792,2020,president
+WA,King,907310,269167,1210507,2020,president
+WA,Kitsap,90277,61563,158672,2020,president
+WA,Kittitas,11421,14105,26364,2020,president
+WA,Klickitat,5959,7237,13560,2020,president
+WA,Lewis,14520,29391,45309,2020,president
+WA,Lincoln,1713,5150,7033,2020,president
+WA,Mason,17269,18710,37303,2020,president
+WA,Okanogan,8900,11840,21282,2020,president
+WA,Pacific,6794,6953,14064,2020,president
+WA,Pend Oreille,2593,5728,8553,2020,president
+WA,Pierce,249506,197730,464081,2020,president
+WA,San Juan,9725,3057,13197,2020,president
+WA,Skagit,38252,32762,73423,2020,president
+WA,Skamania,3192,3885,7312,2020,president
+WA,Snohomish,256728,166428,438796,2020,president
+WA,Spokane,135765,148576,295430,2020,president
+WA,Stevens,7839,19808,28430,2020,president
+WA,Thurston,96608,65277,168134,2020,president
+WA,Wahkiakum,1165,1741,2981,2020,president
+WA,Walla Walla,13690,16400,31261,2020,president
+WA,Whatcom,83660,50489,138620,2020,president
+WA,Whitman,11184,9067,21126,2020,president
+WA,Yakima,43179,50555,96193,2020,president

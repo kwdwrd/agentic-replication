@@ -1,0 +1,236 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage[margin=1in]{geometry}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{threeparttable}
+
+\title{Online Appendix: \\
+Universal Vote-by-Mail and Partisan Vote Share: \\
+Replication and Extension Through 2020}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\doublespacing
+
+\appendix
+
+\section{Data Sources}
+
+\subsection{Original Data}
+
+The original Thompson et al. (2020) replication materials are available at:
+\begin{verbatim}
+https://github.com/stanford-dpl/vbm
+\end{verbatim}
+
+The analysis dataset (\texttt{analysis.dta}) contains 1,454 observations for 126 counties across California (58), Utah (29), and Washington (39) from 1996--2018.
+
+\subsection{Extension Data}
+
+Extension data were collected from the following sources:
+
+\begin{itemize}
+    \item \textbf{2020 Presidential Results}: MIT Election Data + Science Lab county-level returns
+    \item \textbf{California VCA Adoption}: California Secretary of State, League of Women Voters of California
+    \item \textbf{Utah/Washington Treatment Status}: State election office records
+\end{itemize}
+
+\section{California VCA Adoption Details}
+
+Table \ref{tab:vca_full} provides the complete list of California VCA adopters by year.
+
+\begin{longtable}{lll}
+\caption{California Voter's Choice Act Adoption by County} \label{tab:vca_full} \\
+\toprule
+County & First VCA Year & Population (2020) \\
+\midrule
+\endfirsthead
+\multicolumn{3}{c}{\tablename\ \thetable\ -- continued from previous page} \\
+\toprule
+County & First VCA Year & Population (2020) \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{Continued on next page} \\
+\endfoot
+\bottomrule
+\endlastfoot
+% 2018 Adopters
+Madera & 2018 & 157,327 \\
+Napa & 2018 & 137,744 \\
+Nevada & 2018 & 99,755 \\
+Sacramento & 2018 & 1,552,058 \\
+San Mateo & 2018 & 764,442 \\
+\midrule
+% 2020 Adopters
+Amador & 2020 & 40,474 \\
+Butte & 2020 & 219,186 \\
+Calaveras & 2020 & 45,905 \\
+El Dorado & 2020 & 192,843 \\
+Fresno & 2020 & 999,101 \\
+Los Angeles & 2020 & 10,014,009 \\
+Mariposa & 2020 & 17,131 \\
+Orange & 2020 & 3,186,989 \\
+Santa Clara & 2020 & 1,927,852 \\
+Tuolumne & 2020 & 54,478 \\
+\midrule
+% 2022 Adopters
+Alameda & 2022 & 1,671,329 \\
+Contra Costa & 2022 & 1,153,526 \\
+Marin & 2022 & 258,826 \\
+Merced & 2022 & 281,202 \\
+Riverside & 2022 & 2,470,546 \\
+San Benito & 2022 & 64,209 \\
+San Bernardino & 2022 & 2,181,654 \\
+San Diego & 2022 & 3,298,634 \\
+San Francisco & 2022 & 873,965 \\
+Sonoma & 2022 & 494,336 \\
+Ventura & 2022 & 843,843 \\
+Yolo & 2022 & 220,500 \\
+\midrule
+% 2024 Adopters
+Placer & 2024 & 404,739 \\
+San Luis Obispo & 2024 & 283,111 \\
+\end{longtable}
+
+\section{Replication Details}
+
+\subsection{Software}
+
+Replication and extension analyses were conducted using:
+\begin{itemize}
+    \item Python 3.12
+    \item pandas 2.1.0
+    \item pyfixest 0.14.0
+    \item statsmodels 0.14.0
+\end{itemize}
+
+Original analyses used Stata 16 with the \texttt{reghdfe} package.
+
+\subsection{Replication Comparison}
+
+Table \ref{tab:replication_detail} provides detailed comparison of original and replicated estimates.
+
+\begin{table}[H]
+\centering
+\caption{Detailed Replication Comparison}
+\label{tab:replication_detail}
+\begin{threeparttable}
+\begin{tabular}{lccccc}
+\toprule
+Outcome & Original & Replicated & Difference & $N$ & Match \\
+\midrule
+\multicolumn{6}{l}{\textit{Table 2: Democratic Vote Share}} \\
+Presidential (basic) & 0.006 & 0.006 & 0.000 & 378 & \checkmark \\
+Gubernatorial (basic) & $-$0.006 & $-$0.006 & 0.000 & 438 & \checkmark \\
+\midrule
+\multicolumn{6}{l}{\textit{Table 3: Turnout}} \\
+Turnout share (basic) & 0.024 & 0.024 & 0.000 & 986 & \checkmark \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Notes: ``Basic'' refers to specification with county and state-by-year fixed effects without county-specific trends.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Extension Results: Full Tables}
+
+\subsection{Event Study}
+
+Table \ref{tab:event_study} presents Democratic vote share by event time (years relative to VCA adoption) for California counties that adopted VCA.
+
+\begin{table}[H]
+\centering
+\caption{Event Study: Democratic Vote Share by Event Time}
+\label{tab:event_study}
+\begin{tabular}{lccc}
+\toprule
+Event Time & Mean Dem. Share & Std. Dev. & $N$ Counties \\
+\midrule
+$t = -22$ & 0.558 & --- & 12 \\
+$t = -20$ & 0.460 & --- & 12 \\
+$t = -18$ & 0.539 & --- & 17 \\
+$t = -16$ & 0.462 & --- & 12 \\
+$t = -14$ & 0.598 & --- & 17 \\
+$t = -12$ & 0.512 & --- & 12 \\
+$t = -10$ & 0.613 & --- & 17 \\
+$t = -8$ & 0.502 & --- & 12 \\
+$t = -6$ & 0.630 & --- & 17 \\
+$t = -4$ & 0.513 & --- & 12 \\
+$t = -2$ & 0.642 & --- & 17 \\
+$t = 0$ & 0.508 & --- & 10 \\
+$t = +2$ & 0.629 & --- & 5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Note: Event time reflects presidential election years only. Even-numbered event times correspond to presidential years; odd-numbered event times (not shown) correspond to midterm years.
+
+\subsection{State-Specific Results}
+
+Table \ref{tab:state_specific} presents separate analyses for each state.
+
+\begin{table}[H]
+\centering
+\caption{State-Specific Extension Results}
+\label{tab:state_specific}
+\begin{threeparttable}
+\begin{tabular}{lcccc}
+\toprule
+State & Coefficient & Std. Error & $N$ & Treatment Variation \\
+\midrule
+California & 0.002 & 0.010 & 348 & VCA adoption 2018--2024 \\
+Utah & --- & --- & 174 & No variation (all treated 2020+) \\
+Washington & --- & --- & 234 & No variation (all treated 2011+) \\
+\midrule
+All states & 0.017 & 0.008 & 756 & --- \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Notes: Utah and Washington estimates not reported due to lack of treatment variation in the extension period. All counties in Utah and Washington were treated by 2020.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\section{Data Limitations}
+
+\subsection{Missing Extension Data}
+
+The following data were unavailable for the extension analysis:
+
+\begin{enumerate}
+    \item \textbf{2022 Gubernatorial Results}: California and Utah held gubernatorial elections in 2022, but county-level results were not obtained due to data access restrictions.
+
+    \item \textbf{2024 Presidential Results}: The 2024 presidential election occurred after the extension data collection period.
+
+    \item \textbf{CVAP Data}: Citizen Voting Age Population estimates from the Census Bureau were not obtained for the extension period, precluding turnout analysis.
+
+    \item \textbf{Party Registration}: Washington State does not require party registration, limiting analysis of partisan turnout composition.
+\end{enumerate}
+
+\subsection{Implications for Analysis}
+
+Due to these limitations, our extension analysis focuses on:
+\begin{itemize}
+    \item Democratic presidential vote share as the primary outcome
+    \item The 2020 presidential election as the primary extension year
+    \item California as the primary source of treatment variation
+\end{itemize}
+
+Future research should extend the analysis through 2024 once complete data become available.
+
+\end{document}

@@ -1,0 +1,13 @@
+Outcome,Original_Coef,Original_SE,Replicated_Coef,Replicated_SE,Difference,Match
+dem_turnout_basic,0.007,0.003,0.007236402277974055,0.00314321496655565,0.0002364022779740545,Exact
+dem_turnout_linear,0.001,0.001,,,,N/A
+dem_turnout_quad,0.001,0.001,,,,N/A
+dem_vote_basic,0.028,0.011,0.028465351131998377,0.011344755585768716,0.00046535113199837677,Exact
+dem_vote_linear,0.011,0.004,,,,N/A
+dem_vote_quad,0.007,0.003,,,,N/A
+turnout_basic,0.021,0.009,0.021206610439670627,0.009369877557437763,0.00020661043967062573,Exact
+turnout_linear,0.022,0.007,,,,N/A
+turnout_quad,0.021,0.008,,,,N/A
+vbm_basic,0.186,0.027,0.18603814039340316,0.02665372527623176,3.814039340316322e-05,Exact
+vbm_linear,0.157,0.035,,,,N/A
+vbm_quad,0.136,0.085,,,,N/A

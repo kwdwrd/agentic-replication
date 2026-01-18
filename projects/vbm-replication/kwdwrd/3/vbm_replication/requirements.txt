@@ -1,0 +1,27 @@
+# VBM Replication Project Requirements
+# Python 3.8+
+
+# Data manipulation
+pandas>=1.5.0
+numpy>=1.20.0
+
+# Statistics and econometrics
+statsmodels>=0.13.0
+pyfixest>=0.10.0
+linearmodels>=4.25
+scipy>=1.7.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Data loading
+openpyxl>=3.0.0  # Excel files
+xlrd>=2.0.0      # Legacy Excel files
+
+# Web scraping for data collection (if needed)
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+
+# Additional utilities
+tqdm>=4.60.0     # Progress bars

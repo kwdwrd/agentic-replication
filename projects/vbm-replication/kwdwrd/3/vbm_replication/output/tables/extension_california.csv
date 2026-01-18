@@ -1,0 +1,2 @@
+coef,se,t,p,n,r2,sample,outcome,note
+-0.004259183090070239,0.0065988899698886825,-0.6454393253267243,0.5212323155438154,116,,California 2016-2020,dem_share_pres,County FE + Year FE

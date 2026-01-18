@@ -1,0 +1,7 @@
+outcome,coefficient,std_error,n_obs,n_counties,n_elections
+turnout_basic,0.021206610439670627,0.009369877557437763,1240,126,30
+turnout_linear,,,1240,126,30
+turnout_quad,,,1240,126,30
+vbm_basic,0.18603814039340316,0.02665372527623176,580,58,10
+vbm_linear,,,580,58,10
+vbm_quad,,,580,58,10

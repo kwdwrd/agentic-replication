@@ -1,0 +1,90 @@
+[
+  {
+    "turn": 1,
+    "started_at": "2026-01-18T06:11:53Z",
+    "completed_at": "2026-01-18T06:15:58Z",
+    "duration_seconds": 245,
+    "exit_code": 0,
+    "prompt_preview": "Please execute the following instructions. Work in the current directory and create all outputs here..."
+  },
+  {
+    "turn": 2,
+    "started_at": "2026-01-18T07:11:58Z",
+    "completed_at": "2026-01-18T07:19:48Z",
+    "duration_seconds": 470,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 3,
+    "started_at": "2026-01-18T07:20:22Z",
+    "completed_at": "2026-01-18T07:27:50Z",
+    "duration_seconds": 448,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 4,
+    "started_at": "2026-01-18T07:28:31Z",
+    "completed_at": "2026-01-18T07:29:23Z",
+    "duration_seconds": 52,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 5,
+    "started_at": "2026-01-18T14:14:48Z",
+    "completed_at": "2026-01-18T14:36:00Z",
+    "duration_seconds": 1272,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 6,
+    "started_at": "2026-01-18T16:07:57Z",
+    "completed_at": "2026-01-18T16:10:14Z",
+    "duration_seconds": 137,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 7,
+    "started_at": "2026-01-18T16:31:07Z",
+    "completed_at": "2026-01-18T16:31:14Z",
+    "duration_seconds": 7,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 8,
+    "started_at": "2026-01-18T19:01:11Z",
+    "completed_at": "2026-01-18T19:05:39Z",
+    "duration_seconds": 268,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 9,
+    "started_at": "2026-01-18T19:22:36Z",
+    "completed_at": "2026-01-18T19:25:30Z",
+    "duration_seconds": 174,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 10,
+    "started_at": "2026-01-18T19:26:10Z",
+    "completed_at": "2026-01-18T19:28:17Z",
+    "duration_seconds": 127,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 11,
+    "started_at": "2026-01-18T19:36:18Z",
+    "completed_at": "2026-01-18T19:36:26Z",
+    "duration_seconds": 8,
+    "exit_code": 0,
+    "prompt_preview": "\u001b[A "
+  }
+]
