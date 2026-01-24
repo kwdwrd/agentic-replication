@@ -1,0 +1,29 @@
+# Core data analysis
+pandas>=1.3.0
+numpy>=1.20.0
+
+# Statistical modeling
+statsmodels>=0.12.0
+linearmodels>=4.24
+scipy>=1.7.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Data I/O
+openpyxl>=3.0.0        # Excel files
+xlrd>=2.0.0            # Legacy Excel files
+
+# Web scraping and API access
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# Utilities
+tqdm>=4.60.0           # Progress bars
+python-dateutil>=2.8.0
+
+# For reading Stata files
+# (pandas handles .dta natively, but pyreadstat provides faster reading)
+pyreadstat>=1.1.0

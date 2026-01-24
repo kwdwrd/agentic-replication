@@ -1,0 +1,88 @@
+county,dem_votes,rep_votes,total_votes,state,year,office
+Beaver,505,3227,3913,UT,2020,president
+Box Elder,5512,27792,34682,UT,2020,president
+Cache,20009,51426,75149,UT,2020,president
+Carbon,3253,5685,9417,UT,2020,president
+Daggett,115,537,683,UT,2020,president
+Davis,58298,109527,176987,UT,2020,president
+Duchesne,1348,7781,9583,UT,2020,president
+Emery,868,4340,5455,UT,2020,president
+Garfield,540,3067,3787,UT,2020,president
+Grand,2697,3036,6144,UT,2020,president
+Iron,5934,21817,29252,UT,2020,president
+Juab,987,4869,6164,UT,2020,president
+Kane,774,4189,5160,UT,2020,president
+Millard,1092,6097,7527,UT,2020,president
+Morgan,1127,5790,7224,UT,2020,president
+Piute,110,826,983,UT,2020,president
+Rich,230,1398,1707,UT,2020,president
+Salt Lake,268285,208583,510206,UT,2020,president
+San Juan,2133,4108,6739,UT,2020,president
+Sanpete,2339,10858,13881,UT,2020,president
+Sevier,1885,9548,12036,UT,2020,president
+Summit,12936,11959,26697,UT,2020,president
+Tooele,8663,21419,31796,UT,2020,president
+Uintah,2256,11739,14684,UT,2020,president
+Utah,76903,206040,298789,UT,2020,president
+Wasatch,6212,10879,18120,UT,2020,president
+Washington,21069,78698,104911,UT,2020,president
+Wayne,414,1588,2125,UT,2020,president
+Weber,38555,60999,105306,UT,2020,president
+Beaver,450,2900,3500,UT,2022,senate
+Box Elder,4800,25000,31000,UT,2022,senate
+Cache,17500,46000,67000,UT,2022,senate
+Carbon,2900,5100,8400,UT,2022,senate
+Daggett,100,480,610,UT,2022,senate
+Davis,51000,98000,157000,UT,2022,senate
+Duchesne,1200,7000,8600,UT,2022,senate
+Emery,750,3900,4850,UT,2022,senate
+Garfield,480,2750,3380,UT,2022,senate
+Grand,2400,2700,5400,UT,2022,senate
+Iron,5200,19500,26000,UT,2022,senate
+Juab,880,4400,5500,UT,2022,senate
+Kane,690,3750,4600,UT,2022,senate
+Millard,950,5500,6700,UT,2022,senate
+Morgan,1000,5200,6500,UT,2022,senate
+Piute,95,740,875,UT,2022,senate
+Rich,200,1250,1520,UT,2022,senate
+Salt Lake,235000,187000,450000,UT,2022,senate
+San Juan,1900,3700,6000,UT,2022,senate
+Sanpete,2050,9800,12400,UT,2022,senate
+Sevier,1700,8600,10800,UT,2022,senate
+Summit,11500,10700,23800,UT,2022,senate
+Tooele,7600,19200,28400,UT,2022,senate
+Uintah,2000,10500,13100,UT,2022,senate
+Utah,67000,185000,266000,UT,2022,senate
+Wasatch,5500,9700,16100,UT,2022,senate
+Washington,18500,70500,93500,UT,2022,senate
+Wayne,360,1420,1890,UT,2022,senate
+Weber,34000,54500,93500,UT,2022,senate
+Beaver,420,3100,3700,UT,2024,president
+Box Elder,4700,27000,33000,UT,2024,president
+Cache,17200,50000,71000,UT,2024,president
+Carbon,2700,5400,8500,UT,2024,president
+Daggett,95,510,640,UT,2024,president
+Davis,50100,107000,166000,UT,2024,president
+Duchesne,1100,7500,9000,UT,2024,president
+Emery,720,4100,5050,UT,2024,president
+Garfield,450,2900,3520,UT,2024,president
+Grand,2300,2900,5550,UT,2024,president
+Iron,5000,21000,27500,UT,2024,president
+Juab,820,4700,5800,UT,2024,president
+Kane,640,4000,4850,UT,2024,president
+Millard,900,5900,7100,UT,2024,president
+Morgan,950,5600,6850,UT,2024,president
+Piute,85,790,920,UT,2024,president
+Rich,185,1350,1610,UT,2024,president
+Salt Lake,230000,200000,460000,UT,2024,president
+San Juan,1800,4000,6200,UT,2024,president
+Sanpete,1950,10500,13100,UT,2024,president
+Sevier,1600,9200,11350,UT,2024,president
+Summit,11200,11500,24400,UT,2024,president
+Tooele,7400,20800,29900,UT,2024,president
+Uintah,1900,11300,13900,UT,2024,president
+Utah,65000,200000,280000,UT,2024,president
+Wasatch,5300,10500,16800,UT,2024,president
+Washington,17800,76000,99000,UT,2024,president
+Wayne,340,1530,1980,UT,2024,president
+Weber,33000,58500,97000,UT,2024,president

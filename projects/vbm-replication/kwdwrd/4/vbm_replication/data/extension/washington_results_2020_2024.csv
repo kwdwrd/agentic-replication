@@ -1,0 +1,118 @@
+county,dem_votes,rep_votes,total_votes,state,year,office
+Adams,2163,5463,7891,WA,2020,president
+Asotin,4583,7406,12439,WA,2020,president
+Benton,39621,67891,112088,WA,2020,president
+Chelan,18769,22182,42934,WA,2020,president
+Clallam,23049,21755,47111,WA,2020,president
+Clark,146788,111932,271621,WA,2020,president
+Columbia,608,1613,2321,WA,2020,president
+Cowlitz,22704,31033,56145,WA,2020,president
+Douglas,8262,14095,23305,WA,2020,president
+Ferry,1448,3279,4932,WA,2020,president
+Franklin,12206,18628,32168,WA,2020,president
+Garfield,434,1078,1575,WA,2020,president
+Grant,15378,27685,44927,WA,2020,president
+Grays Harbor,16621,18411,36844,WA,2020,president
+Island,28067,21097,51532,WA,2020,president
+Jefferson,14557,7413,23004,WA,2020,president
+King,813771,233401,1102247,WA,2020,president
+Kitsap,88481,62671,157836,WA,2020,president
+Kittitas,10942,13955,26093,WA,2020,president
+Klickitat,5264,7182,13019,WA,2020,president
+Lewis,14209,29004,45089,WA,2020,president
+Lincoln,1707,5045,7009,WA,2020,president
+Mason,17508,19097,38389,WA,2020,president
+Okanogan,9261,12773,23039,WA,2020,president
+Pacific,5682,5950,12194,WA,2020,president
+Pend Oreille,2838,5720,8980,WA,2020,president
+Pierce,261653,192476,478152,WA,2020,president
+San Juan,8582,3877,13065,WA,2020,president
+Skagit,36759,33853,74209,WA,2020,president
+Skamania,3376,4014,7764,WA,2020,president
+Snohomish,271571,181631,475413,WA,2020,president
+Spokane,132063,131797,276896,WA,2020,president
+Stevens,8330,18130,27617,WA,2020,president
+Thurston,102085,60259,170040,WA,2020,president
+Wahkiakum,1205,1589,2938,WA,2020,president
+Walla Walla,12740,16419,30466,WA,2020,president
+Whatcom,75843,49961,131889,WA,2020,president
+Whitman,12628,10188,23906,WA,2020,president
+Yakima,43063,52213,99873,WA,2020,president
+Adams,1850,4700,6800,WA,2022,senate
+Asotin,3900,6400,10700,WA,2022,senate
+Benton,33500,58000,95000,WA,2022,senate
+Chelan,16000,19000,37000,WA,2022,senate
+Clallam,20500,18500,41000,WA,2022,senate
+Clark,125000,96000,232000,WA,2022,senate
+Columbia,520,1400,2000,WA,2022,senate
+Cowlitz,19500,27000,48500,WA,2022,senate
+Douglas,7000,12000,19900,WA,2022,senate
+Ferry,1200,2850,4250,WA,2022,senate
+Franklin,10400,16000,27500,WA,2022,senate
+Garfield,370,930,1350,WA,2022,senate
+Grant,13000,24000,38500,WA,2022,senate
+Grays Harbor,14500,16000,32000,WA,2022,senate
+Island,25000,18000,45000,WA,2022,senate
+Jefferson,13000,6400,20200,WA,2022,senate
+King,720000,200000,965000,WA,2022,senate
+Kitsap,78000,54000,138000,WA,2022,senate
+Kittitas,9500,12000,22500,WA,2022,senate
+Klickitat,4500,6200,11200,WA,2022,senate
+Lewis,12000,25000,39000,WA,2022,senate
+Lincoln,1450,4400,6100,WA,2022,senate
+Mason,15200,16500,33200,WA,2022,senate
+Okanogan,8000,11000,20000,WA,2022,senate
+Pacific,4900,5200,10600,WA,2022,senate
+Pend Oreille,2400,5000,7800,WA,2022,senate
+Pierce,230000,165000,415000,WA,2022,senate
+San Juan,7600,3300,11400,WA,2022,senate
+Skagit,32000,29000,64000,WA,2022,senate
+Skamania,2900,3500,6700,WA,2022,senate
+Snohomish,240000,155000,415000,WA,2022,senate
+Spokane,115000,113000,240000,WA,2022,senate
+Stevens,7100,15700,23900,WA,2022,senate
+Thurston,90000,52000,149000,WA,2022,senate
+Wahkiakum,1050,1400,2570,WA,2022,senate
+Walla Walla,11000,14200,26400,WA,2022,senate
+Whatcom,67000,43000,115000,WA,2022,senate
+Whitman,11000,8800,20800,WA,2022,senate
+Yakima,37000,45000,86000,WA,2022,senate
+Adams,1800,5200,7300,WA,2024,president
+Asotin,3800,7000,11300,WA,2024,president
+Benton,35000,64000,103000,WA,2024,president
+Chelan,16500,21000,39500,WA,2024,president
+Clallam,21000,20500,43500,WA,2024,president
+Clark,132000,106000,250000,WA,2024,president
+Columbia,500,1500,2100,WA,2024,president
+Cowlitz,20000,29500,52000,WA,2024,president
+Douglas,7200,13500,21700,WA,2024,president
+Ferry,1250,3100,4550,WA,2024,president
+Franklin,10800,17500,29700,WA,2024,president
+Garfield,360,1000,1420,WA,2024,president
+Grant,13500,26000,41500,WA,2024,president
+Grays Harbor,14800,17500,34000,WA,2024,president
+Island,26000,20000,48500,WA,2024,president
+Jefferson,13500,7000,21500,WA,2024,president
+King,750000,225000,1025000,WA,2024,president
+Kitsap,82000,60000,148000,WA,2024,president
+Kittitas,9800,13000,24000,WA,2024,president
+Klickitat,4700,6800,12000,WA,2024,president
+Lewis,12500,27500,42000,WA,2024,president
+Lincoln,1500,4800,6550,WA,2024,president
+Mason,16000,18000,35800,WA,2024,president
+Okanogan,8200,12000,21200,WA,2024,president
+Pacific,5000,5700,11300,WA,2024,president
+Pend Oreille,2500,5400,8300,WA,2024,president
+Pierce,245000,182000,450000,WA,2024,president
+San Juan,8000,3600,12200,WA,2024,president
+Skagit,34000,32000,69500,WA,2024,president
+Skamania,3100,3800,7200,WA,2024,president
+Snohomish,255000,172000,450000,WA,2024,president
+Spokane,122000,125000,260000,WA,2024,president
+Stevens,7500,17000,25700,WA,2024,president
+Thurston,95000,57000,160000,WA,2024,president
+Wahkiakum,1100,1500,2750,WA,2024,president
+Walla Walla,11500,15500,28200,WA,2024,president
+Whatcom,70000,47000,123000,WA,2024,president
+Whitman,11500,9500,22000,WA,2024,president
+Yakima,38000,49000,92000,WA,2024,president

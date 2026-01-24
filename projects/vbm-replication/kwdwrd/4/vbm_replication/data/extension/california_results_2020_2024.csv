@@ -1,0 +1,175 @@
+county,dem_votes,rep_votes,total_votes,state,year,office
+Alameda,617659,136309,769832,CA,2020,president
+Alpine,404,559,1012,CA,2020,president
+Amador,7736,15508,24209,CA,2020,president
+Butte,41289,52983,98166,CA,2020,president
+Calaveras,9227,15805,26105,CA,2020,president
+Colusa,2693,4989,8019,CA,2020,president
+Contra Costa,378317,127621,524058,CA,2020,president
+Del Norte,4700,7163,12359,CA,2020,president
+El Dorado,42371,58687,105239,CA,2020,president
+Fresno,151702,145549,314406,CA,2020,president
+Glenn,3476,7386,11308,CA,2020,president
+Humboldt,38849,25063,66907,CA,2020,president
+Imperial,25171,21653,49555,CA,2020,president
+Inyo,3749,5023,9186,CA,2020,president
+Kern,93848,164780,274048,CA,2020,president
+Kings,17055,22612,41695,CA,2020,president
+Lake,12802,12587,26800,CA,2020,president
+Lassen,3376,10117,14078,CA,2020,president
+Los Angeles,3028885,1145530,4434232,CA,2020,president
+Madera,20405,28285,51076,CA,2020,president
+Marin,112712,23419,140523,CA,2020,president
+Mariposa,3665,5706,9862,CA,2020,president
+Mendocino,23553,14908,40451,CA,2020,president
+Merced,43287,40663,87887,CA,2020,president
+Modoc,1150,3109,4467,CA,2020,president
+Mono,3413,2421,6110,CA,2020,president
+Monterey,113953,46299,168279,CA,2020,president
+Napa,45754,21107,69737,CA,2020,president
+Nevada,31660,23739,57810,CA,2020,president
+Orange,847427,719349,1626025,CA,2020,president
+Placer,90549,105556,204917,CA,2020,president
+Plumas,3841,5982,10288,CA,2020,president
+Riverside,394591,432918,875279,CA,2020,president
+Sacramento,401714,256755,689973,CA,2020,president
+San Benito,14399,12654,28276,CA,2020,president
+San Bernardino,317594,361199,716574,CA,2020,president
+San Diego,962527,655815,1694679,CA,2020,president
+San Francisco,362995,54013,432445,CA,2020,president
+San Joaquin,150247,119653,282753,CA,2020,president
+San Luis Obispo,72714,53063,131697,CA,2020,president
+San Mateo,280737,82505,378036,CA,2020,president
+Santa Barbara,121428,70582,200809,CA,2020,president
+Santa Clara,600735,224890,865055,CA,2020,president
+Santa Cruz,102287,32604,140153,CA,2020,president
+Shasta,23015,52853,79631,CA,2020,president
+Sierra,494,1180,1759,CA,2020,president
+Siskiyou,9593,13290,23996,CA,2020,president
+Solano,110653,68023,186235,CA,2020,president
+Sonoma,199938,61825,271689,CA,2020,president
+Stanislaus,105841,104145,219149,CA,2020,president
+Sutter,14270,22063,38111,CA,2020,president
+Tehama,7454,18100,26637,CA,2020,president
+Trinity,2420,4153,6885,CA,2020,president
+Tulare,47977,74927,128752,CA,2020,president
+Tuolumne,10673,14336,26196,CA,2020,president
+Ventura,234376,162892,413929,CA,2020,president
+Yolo,64316,27389,95266,CA,2020,president
+Yuba,10770,14846,26855,CA,2020,president
+Alameda,398813,87456,501589,CA,2022,governor
+Alpine,295,440,773,CA,2022,governor
+Amador,5574,12211,18624,CA,2022,governor
+Butte,30614,42051,76424,CA,2022,governor
+Calaveras,6831,13092,20943,CA,2022,governor
+Colusa,1893,4253,6488,CA,2022,governor
+Contra Costa,256908,89579,360704,CA,2022,governor
+Del Norte,3442,5906,9784,CA,2022,governor
+El Dorado,30821,48219,82892,CA,2022,governor
+Fresno,105583,115048,232303,CA,2022,governor
+Glenn,2464,6359,9226,CA,2022,governor
+Humboldt,28654,19481,50564,CA,2022,governor
+Imperial,17988,18006,37813,CA,2022,governor
+Inyo,2789,4266,7398,CA,2022,governor
+Kern,64445,137455,212193,CA,2022,governor
+Kings,12028,18826,32462,CA,2022,governor
+Lake,9414,10179,20597,CA,2022,governor
+Lassen,2404,8643,11512,CA,2022,governor
+Los Angeles,1946439,796251,2851949,CA,2022,governor
+Madera,14704,22774,39255,CA,2022,governor
+Marin,85180,17179,106016,CA,2022,governor
+Mariposa,2788,4698,7852,CA,2022,governor
+Mendocino,17748,11720,30851,CA,2022,governor
+Merced,30178,33628,67023,CA,2022,governor
+Modoc,798,2783,3744,CA,2022,governor
+Mono,2527,1971,4706,CA,2022,governor
+Monterey,78826,35750,120092,CA,2022,governor
+Napa,33423,15761,51284,CA,2022,governor
+Nevada,24031,18976,44920,CA,2022,governor
+Orange,522168,504936,1078789,CA,2022,governor
+Placer,65877,87183,160259,CA,2022,governor
+Plumas,2788,4957,8087,CA,2022,governor
+Riverside,271858,303252,603968,CA,2022,governor
+Sacramento,289752,182119,493737,CA,2022,governor
+San Benito,10321,10057,21335,CA,2022,governor
+San Bernardino,219963,256515,499735,CA,2022,governor
+San Diego,657247,475413,1185909,CA,2022,governor
+San Francisco,268234,37003,316764,CA,2022,governor
+San Joaquin,104116,88005,201118,CA,2022,governor
+San Luis Obispo,53213,41206,98876,CA,2022,governor
+San Mateo,208315,58656,276848,CA,2022,governor
+Santa Barbara,87850,52006,146112,CA,2022,governor
+Santa Clara,432779,155413,613963,CA,2022,governor
+Santa Cruz,76696,24319,104764,CA,2022,governor
+Shasta,15839,44058,62607,CA,2022,governor
+Sierra,358,1013,1435,CA,2022,governor
+Siskiyou,6720,11230,18782,CA,2022,governor
+Solano,77943,48380,131815,CA,2022,governor
+Sonoma,148609,45413,201348,CA,2022,governor
+Stanislaus,73424,78632,159189,CA,2022,governor
+Sutter,10101,18183,29488,CA,2022,governor
+Tehama,5186,15377,21399,CA,2022,governor
+Trinity,1793,3537,5568,CA,2022,governor
+Tulare,32996,63032,100573,CA,2022,governor
+Tuolumne,7721,11898,20468,CA,2022,governor
+Ventura,168610,117430,298207,CA,2022,governor
+Yolo,49137,20299,72388,CA,2022,governor
+Yuba,7734,12036,20588,CA,2022,governor
+Alameda,499551,140789,669433,CA,2024,president
+Alpine,417,513,983,CA,2024,president
+Amador,6165,14232,21307,CA,2024,president
+Butte,44228,47179,95704,CA,2024,president
+Calaveras,7724,14249,22987,CA,2024,president
+Colusa,2160,4503,6994,CA,2024,president
+Contra Costa,305168,113858,437652,CA,2024,president
+Del Norte,3933,6320,10725,CA,2024,president
+El Dorado,37173,52970,94300,CA,2024,president
+Fresno,123698,134025,272037,CA,2024,president
+Glenn,2839,6697,9970,CA,2024,president
+Humboldt,31909,22124,56793,CA,2024,president
+Imperial,19085,21955,43567,CA,2024,president
+Inyo,3158,4545,8092,CA,2024,president
+Kern,75069,146870,234100,CA,2024,president
+Kings,13916,20309,36042,CA,2024,president
+Lake,10512,11295,22930,CA,2024,president
+Lassen,2697,9215,12436,CA,2024,president
+Los Angeles,2381816,1278972,3825878,CA,2024,president
+Madera,16689,25041,43808,CA,2024,president
+Marin,94463,21186,120079,CA,2024,president
+Mariposa,3131,5143,8693,CA,2024,president
+Mendocino,19768,13025,34581,CA,2024,president
+Merced,40190,43955,88590,CA,2024,president
+Modoc,943,2846,3984,CA,2024,president
+Mono,2919,2264,5435,CA,2024,president
+Monterey,92899,43312,143212,CA,2024,president
+Napa,38066,19030,59738,CA,2024,president
+Nevada,27173,21319,50820,CA,2024,president
+Orange,722543,683063,1452695,CA,2024,president
+Placer,82118,96481,186719,CA,2024,president
+Plumas,3168,5406,8958,CA,2024,president
+Riverside,341665,387888,766139,CA,2024,president
+Sacramento,351595,233155,612682,CA,2024,president
+San Benito,12527,11491,25158,CA,2024,president
+San Bernardino,275091,320929,625814,CA,2024,president
+San Diego,812629,607054,1486048,CA,2024,president
+San Francisco,303108,47886,366073,CA,2024,president
+San Joaquin,129929,114082,256232,CA,2024,president
+San Luis Obispo,61862,48099,115357,CA,2024,president
+San Mateo,233783,74279,321117,CA,2024,president
+Santa Barbara,104251,61700,173256,CA,2024,president
+Santa Clara,511605,191810,737109,CA,2024,president
+Santa Cruz,87044,28302,120106,CA,2024,president
+Shasta,19261,47181,69792,CA,2024,president
+Sierra,411,1072,1558,CA,2024,president
+Siskiyou,8003,11916,20923,CA,2024,president
+Solano,94064,60696,162041,CA,2024,president
+Sonoma,170069,53963,233030,CA,2024,president
+Stanislaus,91090,95884,196189,CA,2024,president
+Sutter,11883,20066,33337,CA,2024,president
+Tehama,6144,16426,23567,CA,2024,president
+Trinity,2079,3718,6107,CA,2024,president
+Tulare,39871,67219,112780,CA,2024,president
+Tuolumne,9168,12972,23129,CA,2024,president
+Ventura,199682,151157,366628,CA,2024,president
+Yolo,57098,24418,85041,CA,2024,president
+Yuba,9199,13316,23519,CA,2024,president

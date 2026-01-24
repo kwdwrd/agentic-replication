@@ -1,0 +1,7 @@
+Outcome,Column,Specification,Original_Coef,Original_SE,Replicated_Coef,Replicated_SE,Coef_Diff,N_Obs,N_Clusters
+Dem Turnout Share,1,Basic,0.007,0.003,0.0072,0.0031,0.0002,986,87
+Dem Turnout Share,2,Linear,0.001,0.001,0.0012,0.0014,0.0002,986,87
+Dem Turnout Share,3,Quadratic,0.001,0.001,0.0009,0.0011,-0.0001,986,87
+Dem Vote Share,4,Basic,0.028,0.011,0.0285,0.0113,0.0005,1998,126
+Dem Vote Share,5,Linear,0.011,0.004,0.0109,0.0038,-0.0001,1998,126
+Dem Vote Share,6,Quadratic,0.007,0.003,0.0065,0.0032,-0.0005,1998,126
