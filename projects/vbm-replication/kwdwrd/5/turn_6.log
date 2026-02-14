@@ -1,0 +1,65 @@
+=== Turn 6 started at Mon Feb  2 08:35:02 PST 2026 ===
+
+---
+
+## Checkpoint 3: Extension Data Collection
+
+### Data Collected
+
+**Election Results** — `data/extension/extension_election_data.csv` (378 rows: 126 counties × 3 years)
+
+| State | Counties | 2020 | 2022 | 2024 |
+|-------|----------|------|------|------|
+| CA | 58 | Presidential | Governor | Presidential |
+| UT | 29 | Presidential | Senate | Presidential |
+| WA | 39 | Presidential | Senate | Presidential |
+
+**Sources:**
+- CA: Official CA Secretary of State county-level certified results
+- UT 2020/2024: `tonmcg/US_County_Level_Election_Results_08-24` (GitHub)
+- UT 2022: OpenElections precinct data, aggregated to county level (Lee vs McMullin; McMullin coded as opposition)
+- WA 2020/2024: Same tonmcg GitHub source
+- WA 2022: WA Secretary of State certified results (Murray vs Smiley)
+
+**CA VBM Adoption** — `data/extension/california_vbm_adoption.csv` (58 rows)
+
+Verified against CA Secretary of State VCA participating counties list:
+- 2018: 5 counties (pilot)
+- 2020: +10 = 15 cumulative
+- 2022: +14 = 29 cumulative
+- 2024: +1 (Placer) = 30 cumulative
+- Non-VCA: 28 counties
+
+**CVAP** — Approximated by applying state-level growth factors (from Census/ACS) to last available CVAP from original data. This is acknowledged as an approximation.
+
+### Validation Results
+
+All checks pass:
+- 378 rows, 126 counties × 3 years, no missing core data
+- CA 2020 statewide totals within 0.01% of official (11,109,764 vs 11,110,250 Dem)
+- UT 2020/2022 match official totals exactly
+- Dem vote share range: [0.099, 0.870] — plausible
+- Turnout range: [0.278, 1.207] — 2 observations >1.0 (Daggett County, UT, pop ~500; artifact of CVAP approximation)
+- VCA adoption: 30 counties verified against SoS (corrected: San Bernardino was erroneously included, now removed)
+
+### Known Issues / Limitations
+
+1. **CVAP is approximate**: Growth factors (3-12% by state) applied to original-period CVAP rather than county-specific Census data
+2. **UT 2022 "dem_votes" is actually McMullin (Independent)**: The 2022 Utah Senate had no Democratic candidate; Evan McMullin ran as independent opposition to Mike Lee. Coded as `dem_votes` for structural consistency.
+3. **Daggett County turnout >1.0**: Very small county, CVAP approximation underestimates denominator
+4. **CA 2022 is Governor, not President/Senate**: This matches the original paper's inclusion of governor races for CA
+
+### Files Produced
+
+- `code/03_collect_extension.py` — Data collection and assembly script
+- `data/extension/extension_election_data.csv` — Main extension dataset
+- `data/extension/california_vbm_adoption.csv` — VCA adoption by county
+- `data/raw/california_county_election_results.csv` — Raw CA election data
+- `data/raw/tonmcg_2020.csv`, `data/raw/tonmcg_2024.csv` — Presidential county data
+- `data/raw/utah_2022_senate_county.csv` — UT 2022 Senate aggregated data
+- `data/raw/ut_2022_precinct.csv` — UT 2022 precinct raw data
+- `notes/extension_rationale.md` — Extension motivation and research questions
+
+Ready for your review. Please approve to proceed to Phase 4 (data merging and analysis variable construction).
+
+=== Turn 6 completed at Mon Feb  2 08:48:09 PST 2026 with exit code 0 ===

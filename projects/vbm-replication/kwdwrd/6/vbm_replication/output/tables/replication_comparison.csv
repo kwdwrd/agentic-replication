@@ -1,0 +1,13 @@
+Table,Column,Outcome,Spec,Original_Beta,Original_SE,Replicated_Beta,Replicated_SE,Diff_Beta,N,Counties,Elections
+Table 2,col1,Dem Turn Share,Basic,0.007,0.003,0.0072,0.0031,0.0002,986,87,23
+Table 2,col2,Dem Turn Share,Linear,0.001,0.001,0.0012,0.0014,0.0002,986,87,23
+Table 2,col3,Dem Turn Share,Quad,0.001,0.001,0.0009,0.0011,-0.0001,986,87,23
+Table 2,col4,Dem Vote Share,Basic,0.028,0.011,0.0285,0.0112,0.0005,1998,126,31
+Table 2,col5,Dem Vote Share,Linear,0.011,0.004,0.0109,0.0037,-0.0001,1998,126,31
+Table 2,col6,Dem Vote Share,Quad,0.007,0.003,0.0065,0.0032,-0.0005,1998,126,31
+Table 3,col1,Turnout Share,Basic,0.021,0.009,0.0212,0.0092,0.0002,1240,126,30
+Table 3,col2,Turnout Share,Linear,0.022,0.007,0.0215,0.0065,-0.0005,1240,126,30
+Table 3,col3,Turnout Share,Quad,0.021,0.008,0.021,0.0072,-0.0,1240,126,30
+Table 3,col4,VBM Share,Basic,0.186,0.027,0.186,0.0262,0.0,580,58,10
+Table 3,col5,VBM Share,Linear,0.157,0.035,0.1575,0.0326,0.0005,580,58,10
+Table 3,col6,VBM Share,Quad,0.136,0.085,0.1359,0.0749,-0.0001,580,58,10

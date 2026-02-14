@@ -1,0 +1,106 @@
+[
+  {
+    "turn": 1,
+    "started_at": "2026-02-03T00:30:41Z",
+    "completed_at": "2026-02-03T00:34:41Z",
+    "duration_seconds": 240,
+    "exit_code": 0,
+    "prompt_preview": "Please execute the following instructions. Work in the current directory and create all outputs here..."
+  },
+  {
+    "turn": 2,
+    "started_at": "2026-02-03T04:36:01Z",
+    "completed_at": "2026-02-03T04:45:44Z",
+    "duration_seconds": 583,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 3,
+    "started_at": "2026-02-03T05:21:50Z",
+    "completed_at": "2026-02-03T05:21:57Z",
+    "duration_seconds": 7,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 4,
+    "started_at": "2026-02-04T06:01:12Z",
+    "completed_at": "2026-02-04T06:06:13Z",
+    "duration_seconds": 301,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 5,
+    "started_at": "2026-02-04T06:09:04Z",
+    "completed_at": "2026-02-04T06:16:48Z",
+    "duration_seconds": 464,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 6,
+    "started_at": "2026-02-05T01:44:56Z",
+    "completed_at": "2026-02-05T02:01:08Z",
+    "duration_seconds": 973,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 7,
+    "started_at": "2026-02-05T21:18:06Z",
+    "completed_at": "2026-02-05T21:31:44Z",
+    "duration_seconds": 818,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 8,
+    "started_at": "2026-02-11T15:03:58Z",
+    "completed_at": "2026-02-11T15:14:05Z",
+    "duration_seconds": 607,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 9,
+    "started_at": "2026-02-11T15:17:59Z",
+    "completed_at": "2026-02-11T15:26:22Z",
+    "duration_seconds": 503,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 10,
+    "started_at": "2026-02-11T15:26:31Z",
+    "completed_at": "2026-02-11T15:29:17Z",
+    "duration_seconds": 166,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 11,
+    "started_at": "2026-02-11T15:29:17Z",
+    "completed_at": "2026-02-11T15:33:02Z",
+    "duration_seconds": 225,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 12,
+    "started_at": "2026-02-11T17:58:52Z",
+    "completed_at": "2026-02-11T18:00:19Z",
+    "duration_seconds": 87,
+    "exit_code": 0,
+    "prompt_preview": "\u001b[A "
+  },
+  {
+    "turn": 13,
+    "started_at": "2026-02-11T18:00:29Z",
+    "completed_at": "2026-02-11T18:00:40Z",
+    "duration_seconds": 11,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  }
+]

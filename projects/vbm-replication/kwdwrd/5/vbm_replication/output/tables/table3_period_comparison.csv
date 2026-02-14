@@ -1,0 +1,9 @@
+outcome,specification,period,coef,se
+Dem Vote Share,Basic FE,Original 1996-2018,0.0285,0.0113
+Dem Vote Share,Linear Trends,Original 1996-2018,0.0109,0.0038
+Dem Vote Share,Basic FE,Extension 2020-2024,-0.0045,0.0063
+Dem Vote Share,Linear Trends,Extension 2020-2024,0.0155,0.0096
+Turnout,Basic FE,Original 1996-2018,0.0212,0.0093
+Turnout,Linear Trends,Original 1996-2018,0.0215,0.0065
+Turnout,Basic FE,Extension 2020-2024,-0.0095,0.0069
+Turnout,Linear Trends,Extension 2020-2024,-0.0502,0.0173

@@ -1,0 +1,16 @@
+{
+  "project": "vbm-replication",
+  "github_username": "kwdwrd",
+  "run_number": 6,
+  "auto_confirm": false,
+  "run_as_user": "null",
+  "started_at": "2026-02-03T00:30:41Z",
+  "session_id": "35b743fc-283d-45f7-aaeb-68086a6f5c5f",
+  "instructions_file": "/Users/kylew/git/agentic-replication/projects/vbm-replication/INSTRUCTIONS.md",
+  "hostname": "macbook-air-9.lan",
+  "working_directory": "/Users/kylew/git/agentic-replication/projects/vbm-replication/kwdwrd/6",
+  "completed_at": "2026-02-12T06:15:08Z",
+  "exit_code": 0,
+  "total_turns": 13,
+  "total_duration_seconds": 798267
+}

@@ -1,0 +1,7 @@
+panel,outcome,specification,coef,se,N,counties,sample
+A,Dem Vote Share (stacked),Basic FE,0.0243,0.0070,2376,126,Full 1996-2024
+A,Dem Vote Share (stacked),Linear Trends,0.0056,0.0030,2376,126,Full 1996-2024
+A,Dem Vote Share (stacked),Quadratic Trends,0.0035,0.0030,2376,126,Full 1996-2024
+B,Turnout,Basic FE,0.0187,0.0051,1618,126,Full 1996-2024
+B,Turnout,Linear Trends,0.0112,0.0050,1618,126,Full 1996-2024
+B,Turnout,Quadratic Trends,0.0130,0.0056,1618,126,Full 1996-2024

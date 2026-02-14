@@ -1,0 +1,7 @@
+outcome,specification,coef,se,N,counties
+Dem Vote Share,Basic FE,0.0196,0.0101,812,58
+Dem Vote Share,Linear Trends,-0.0041,0.0048,812,58
+Dem Vote Share,Quadratic Trends,-0.0121,0.0047,812,58
+Turnout,Basic FE,0.0100,0.0063,754,58
+Turnout,Linear Trends,-0.0048,0.0063,754,58
+Turnout,Quadratic Trends,-0.0032,0.0064,754,58

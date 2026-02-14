@@ -1,0 +1,7 @@
+outcome,specification,coef,se,N
+Dem Vote Share,Basic FE,0.0272,0.0076,2250
+Dem Vote Share,Linear Trends,0.0071,0.0034,2250
+Dem Vote Share,Quadratic Trends,0.0056,0.0034,2250
+Turnout,Basic FE,0.0192,0.0055,1492
+Turnout,Linear Trends,0.0125,0.0054,1492
+Turnout,Quadratic Trends,0.0160,0.0062,1492

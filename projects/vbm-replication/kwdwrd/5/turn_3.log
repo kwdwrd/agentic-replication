@@ -1,0 +1,46 @@
+=== Turn 3 started at Sat Jan 31 23:24:55 PST 2026 ===
+
+---
+
+## CHECKPOINT 2: Replication Complete
+
+### Replication Comparison Table
+
+**Table 2: Partisan Outcomes**
+
+| Col | Outcome | Specification | Original | Replicated | Difference |
+|-----|---------|--------------|----------|------------|------------|
+| 1 | Dem Turnout Share | Basic | 0.007 (0.003) | 0.007 (0.003) | +0.000 |
+| 2 | Dem Turnout Share | Linear Trends | 0.001 (0.001) | 0.001 (0.001) | +0.000 |
+| 3 | Dem Turnout Share | Quad Trends | 0.001 (0.001) | 0.001 (0.001) | -0.000 |
+| 4 | Dem Vote Share | Basic | 0.028 (0.011) | 0.029 (0.011) | +0.001 |
+| 5 | Dem Vote Share | Linear Trends | 0.011 (0.004) | 0.011 (0.004) | -0.000 |
+| 6 | Dem Vote Share | Quad Trends | 0.007 (0.003) | 0.007 (0.003) | -0.001 |
+
+**Table 3: Participation Outcomes**
+
+| Col | Outcome | Specification | Original | Replicated | Difference |
+|-----|---------|--------------|----------|------------|------------|
+| 1 | Turnout | Basic | 0.021 (0.009) | 0.021 (0.009) | +0.000 |
+| 2 | Turnout | Linear Trends | 0.022 (0.007) | 0.022 (0.007) | -0.001 |
+| 3 | Turnout | Quad Trends | 0.021 (0.008) | 0.021 (0.007) | +0.000 |
+| 4 | VBM Share | Basic | 0.186 (0.027) | 0.186 (0.026) | +0.000 |
+| 5 | VBM Share | Linear Trends | 0.157 (0.035) | 0.158 (0.033) | +0.001 |
+| 6 | VBM Share | Quad Trends | 0.136 (0.085) | 0.136 (0.076) | -0.000 |
+
+### Assessment
+- All 12 point estimates match within rounding tolerance (max difference: 0.0005)
+- County counts match exactly: 87 (Dem turnout), 126 (vote share, turnout), 58 (VBM share)
+- Standard errors are very close; minor differences in the quadratic VBM share SE (0.085 vs 0.076) likely reflect finite-sample correction differences between Stata's `reghdfe` and our implementation
+- **Qualitative conclusions are identical to the original paper**
+
+### Discrepancies
+- No substantive discrepancies. All differences are within numerical precision of the 3-decimal-place reporting in the original paper.
+- The minor SE difference in Table 3 col 6 (quadratic VBM share) is the largest discrepancy. This is a highly saturated model (58 county FE + 10 state-year FE + 58 county linear trends + 58 county quadratic trends, with only 580 observations), so small numerical differences in the projection algorithm are expected.
+
+### Code
+The replication code is in `code/02_replicate.py`. It uses iterative demeaning (alternating projections) to absorb multi-way fixed effects, then computes OLS on residuals with clustered standard errors at the county level.
+
+**Waiting for approval to proceed to Phase 3 (Extension Data Collection).**
+
+=== Turn 3 completed at Sat Jan 31 23:28:59 PST 2026 with exit code 0 ===

@@ -1,0 +1,13 @@
+panel,column,outcome,specification,original_coef,original_se,replicated_coef,replicated_se,original_N,original_counties
+A,1,Dem Registration Share,Basic FE,0.007,0.003,0.0072,0.0031,986,87
+A,2,Dem Registration Share,Linear Trends,0.001,0.001,0.0012,0.0014,986,87
+A,3,Dem Registration Share,Quadratic Trends,0.001,0.001,0.0009,0.0011,986,87
+A,4,Dem Vote Share (stacked),Basic FE,0.028,0.011,0.0285,0.0113,1998,126
+A,5,Dem Vote Share (stacked),Linear Trends,0.011,0.004,0.0109,0.0038,1998,126
+A,6,Dem Vote Share (stacked),Quadratic Trends,0.007,0.003,0.0065,0.0032,1998,126
+B,1,Turnout,Basic FE,0.021,0.009,0.0212,0.0093,1240,126
+B,2,Turnout,Linear Trends,0.022,0.007,0.0215,0.0065,1240,126
+B,3,Turnout,Quadratic Trends,0.021,0.008,0.0210,0.0072,1240,126
+B,4,VBM Share (CA only),Basic FE,0.186,0.027,0.1860,0.0264,892,58
+B,5,VBM Share (CA only),Linear Trends,0.157,0.035,0.1575,0.0329,892,58
+B,6,VBM Share (CA only),Quadratic Trends,0.136,0.085,0.1359,0.0756,892,58

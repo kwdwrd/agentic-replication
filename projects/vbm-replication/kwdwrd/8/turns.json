@@ -1,0 +1,66 @@
+[
+  {
+    "turn": 1,
+    "started_at": "2026-02-13T01:46:24Z",
+    "completed_at": "2026-02-13T01:49:51Z",
+    "duration_seconds": 207,
+    "exit_code": 0,
+    "prompt_preview": "Please execute the following instructions. Work in the current directory and create all outputs here..."
+  },
+  {
+    "turn": 2,
+    "started_at": "2026-02-13T01:55:37Z",
+    "completed_at": "2026-02-13T02:03:14Z",
+    "duration_seconds": 457,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 3,
+    "started_at": "2026-02-13T02:14:35Z",
+    "completed_at": "2026-02-13T02:18:18Z",
+    "duration_seconds": 223,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 4,
+    "started_at": "2026-02-13T06:10:53Z",
+    "completed_at": "2026-02-13T06:14:40Z",
+    "duration_seconds": 227,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 5,
+    "started_at": "2026-02-13T15:04:33Z",
+    "completed_at": "2026-02-13T18:13:01Z",
+    "duration_seconds": 11308,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 6,
+    "started_at": "2026-02-14T05:48:29Z",
+    "completed_at": "2026-02-14T05:56:40Z",
+    "duration_seconds": 491,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 7,
+    "started_at": "2026-02-14T06:13:31Z",
+    "completed_at": "2026-02-14T06:13:47Z",
+    "duration_seconds": 16,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  },
+  {
+    "turn": 8,
+    "started_at": "2026-02-14T06:44:05Z",
+    "completed_at": "2026-02-14T06:44:15Z",
+    "duration_seconds": 10,
+    "exit_code": 0,
+    "prompt_preview": "Please proceed. "
+  }
+]

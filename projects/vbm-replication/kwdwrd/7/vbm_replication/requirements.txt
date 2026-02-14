@@ -1,0 +1,26 @@
+# VBM Replication Project - Python Dependencies
+
+# Core data analysis
+pandas>=1.3.0
+numpy>=1.20.0
+
+# Statistical analysis
+statsmodels>=0.12.0
+scipy>=1.7.0
+linearmodels>=4.25
+pyfixest>=0.10.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Data collection / web scraping
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# File handling
+openpyxl>=3.0.0
+
+# Tables and output
+tabulate>=0.8.0

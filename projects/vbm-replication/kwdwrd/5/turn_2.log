@@ -1,0 +1,43 @@
+=== Turn 2 started at Sat Jan 31 23:14:05 PST 2026 ===
+
+---
+
+## CHECKPOINT 1: Literature Review Complete
+
+### Summary of what's been completed:
+
+**1. Original paper thoroughly summarized** (`notes/original_paper_summary.md`):
+- Research question: Does universal VBM affect partisan electoral outcomes?
+- Method: County-level DiD exploiting staggered VBM adoption in CA, UT, WA (1996-2018)
+- Key equation: Y_cst = beta*VBM_cst + county_FE + state_year_FE + epsilon_cst
+- Main findings: Null partisan effects; ~2pp turnout increase; 14-19pp VBM share increase
+- Three specifications: basic, linear trends, quadratic trends
+
+**2. Literature review completed with 12 verified citations** (`notes/literature_review.md`):
+
+| Authors | Year | Journal | Verified? |
+|---------|------|---------|-----------|
+| Thompson, Wu, Yoder, Hall | 2020 | PNAS 117(25) | Yes |
+| Gerber, Huber, Hill | 2013 | PSRM 1(1) | Yes |
+| Kousser, Mullin | 2007 | Political Analysis 15(4) | Yes |
+| Southwell, Burchett | 2000 | American Politics Quarterly 28(1) | Yes |
+| Gronke et al. | 2008 | Annual Review of Political Science 11 | Yes |
+| Berinsky, Burns, Traugott | 2001 | Public Opinion Quarterly 65(2) | Yes |
+| Barber, Holbein | 2020 | Science Advances 6(35) | Yes |
+| Amlani, Collitt | 2022 | Election Law Journal 21(1) | Yes |
+| Lockhart et al. | 2020 | PNAS 117(40) | Yes |
+| Goodman-Bacon | 2021 | Journal of Econometrics 225(2) | Yes |
+| Callaway, Sant'Anna | 2021 | Journal of Econometrics 225(2) | Yes |
+| Sun, Abraham | 2021 | Journal of Econometrics 225(2) | Yes |
+
+All 12 citations verified via web search with publisher URLs confirmed.
+
+**3. Extension rationale documented** (`notes/extension_rationale.md`):
+- California VCA rollout provides the main new variation: 5 counties in 2018, 15 in 2020, 28 in 2022, 30 in 2024
+- UT and WA are fully treated by 2019---no new identifying variation
+- Key question: Do null partisan effects survive the post-COVID era when VBM became politically polarized?
+- Key limitations: COVID confounding in 2020; California-only new variation; Governor Newsom's 2020 executive order may attenuate VCA vs non-VCA distinction
+
+**Waiting for approval to proceed to Phase 2 (Replication with Original Data).**
+
+=== Turn 2 completed at Sat Jan 31 23:23:44 PST 2026 with exit code 0 ===

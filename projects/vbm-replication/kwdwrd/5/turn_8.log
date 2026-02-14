@@ -1,0 +1,38 @@
+=== Turn 8 started at Mon Feb  2 14:19:37 PST 2026 ===
+
+---
+
+## Checkpoint 5: Extension Analysis
+
+### Key Results
+
+**Full Sample (1996-2024):**
+- Dem Vote Share: 0.0035 (SE 0.0030) with quadratic trends — null effect confirmed
+- Turnout: 0.0130** (SE 0.0056) with quadratic trends — ~1.3pp boost persists
+
+**Heterogeneity (VBM × Post-2018):**
+- The interaction term is negative and significant for turnout (-0.027 to -0.029), suggesting the turnout-boosting effect weakened post-2018 (likely COVID confound)
+- For vote share, the interaction is also negative (-0.013 to -0.021), but combined effects remain small
+
+**CA-Only Analysis:**
+- Vote share: -0.0041 (linear trends) — null effect
+- Turnout: -0.0048 (linear trends) — null, attenuated by 2020 EO
+
+**Event Study:**
+- Clean pre-trends (no significant leads for either outcome)
+- Post-treatment coefficients small and insignificant for vote share
+- Supports parallel trends assumption
+
+**Robustness (Exclude 2020):**
+- Results qualitatively similar; turnout effect slightly stronger
+
+### Files Produced
+- `code/05_extension_analysis.py` — Full analysis script
+- `output/tables/extension_main_results.csv` — Compiled results
+- `output/tables/event_study_dem_voteshare.csv` — Event study coefficients
+- `output/tables/event_study_turnout.csv` — Event study coefficients
+- `notes/extension_findings.md` — Detailed findings writeup
+
+Ready for your review. Approve to proceed to Phase 6 (paper writing).
+
+=== Turn 8 completed at Mon Feb  2 14:22:38 PST 2026 with exit code 0 ===
